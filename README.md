@@ -1,12 +1,12 @@
 # Docker
- #Docker Tutorials
-###installing docker.
+# Docker Tutorials
+### Installing docker.
 I am using manjaro linux for this tutorial
 
 
 	sudo pacman -S docker
 
-##Checking Docker  On System
+## Checking Docker  On System
  Command: Docker version allows to check docker version.
 
 	[utshav@utshav-pc Docker]$ docker version
@@ -39,7 +39,7 @@ I am using manjaro linux for this tutorial
 	  GitCommit:        fec3683
 
 
-##Running a Basic Container to Check all things are working Fine.
+## Running a Basic Container to Check all things are working Fine.
 Go to https://hub.docker.com/ and search for whalesay 
 - It is a docker image which outputs the text you want the whale to say.
 
@@ -65,14 +65,15 @@ copy the docker image code.
 	Status: Downloaded newer image for docker/whalesay:latest
 	docker.io/docker/whalesay:latest
 
-#####Running the Image
+##### Running the Image
+
 existing images
 
 	[utshav@utshav-pc Docker]$ docker images
 	REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 	docker/whalesay     latest              6b362a9f73eb        4 years ago         247MB
 	
-#####Running images
+##### Running images
 
 	[utshav@utshav-pc Docker]$ docker run docker/whalesay cowsay hello
 	 _______ 
@@ -89,7 +90,7 @@ existing images
 		   \______ o          __/            
 			\    \        __/             
 			  \____\______/   
-####Another instance
+#### Another instance
 	[utshav@utshav-pc Docker]$ docker run docker/whalesay cowsay domain
 	 ________ 
 	< domain >
