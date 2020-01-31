@@ -65,7 +65,7 @@ copy the docker image code.
 	Status: Downloaded newer image for docker/whalesay:latest
 	docker.io/docker/whalesay:latest
 
-##### Running the Image
+#####  Existing Image
 
 existing images
 
